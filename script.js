@@ -4,11 +4,18 @@ var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 var btn = document.querySelector(".btn-random");
 
+/**
+ * Resets gradient background based on colorpicker values
+ */
 function setGradient() {
 	body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
 	css.textContent = body.style.background + ";";
 }
 
+/**
+ * Returns random color string
+ * @return {String}
+ */
 function randomColor() {
 	col = "#";
 	while (col.length < 7) {
@@ -17,7 +24,10 @@ function randomColor() {
 	return col;
 }
 
-
+/**
+ * Picks two random colors and sets the background
+ * @return {None}
+ */
 function randomize() {
 	color1.value = randomColor();
 	color2.value = randomColor();

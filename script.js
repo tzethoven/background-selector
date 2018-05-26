@@ -17,6 +17,7 @@ function randomColor() {
 	return col;
 }
 
+
 function randomize() {
 	color1.value = randomColor();
 	color2.value = randomColor();

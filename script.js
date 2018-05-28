@@ -24,6 +24,7 @@ function randomColor() {
 	return col;
 }
 
+
 /**
  * Picks two random colors and sets the background
  * @return {None}

@@ -6,8 +6,8 @@ var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 var btn = document.querySelector(".btn-random");
 
-var array - [1,2,3,4,5,6,7,8];
-console.log('answer: ', _.without(array, 3));
+var array = [1,2,3,4,5,6,7,8];
+console.log("answer: ", _.without(array, 3));
 
 /**
  * Resets gradient background based on colorpicker values

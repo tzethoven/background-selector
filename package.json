@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tzethoven/background-selector/issues"
   },
-  "homepage": "https://github.com/tzethoven/background-selector#readme"
+  "homepage": "https://github.com/tzethoven/background-selector#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
 }
